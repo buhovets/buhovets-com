@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "buhovetscom"
+version = "0.1.0"
+description = ""
+authors = ["buhovets <x10c@duck.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.3"
+python-dotenv = "^0.21.0"
+mysqlclient = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
